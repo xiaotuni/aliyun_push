@@ -1,0 +1,3016 @@
+{
+  "T": 1234,
+  "Batch": {
+    "sell_num": {
+      "dataType": "Number"
+    },
+    "repurchase_state": {
+      "dataType": "Boolean"
+    },
+    "is_create_contract": {
+      "dataType": "Boolean"
+    },
+    "is_internal_test": {
+      "dataType": "Boolean"
+    },
+    "is_forward_repurchase": {
+      "dataType": "Boolean"
+    },
+    "start_time": {
+      "dataType": "Number"
+    },
+    "end_time": {
+      "dataType": "Number"
+    },
+    "total_num": {
+      "dataType": "Number"
+    },
+    "period": {
+      "dataType": "Number"
+    },
+    "batch_code": {
+      "dataType": "String"
+    },
+    "yield": {
+      "dataType": "Number"
+    },
+    "enter_time": {
+      "dataType": "Number"
+    },
+    "operation_counts": {
+      "dataType": "Object",
+      "relationTable": "Batch_operation_counts"
+    },
+    "bearing_start_time": {
+      "dataType": "Number"
+    },
+    "bearing_end_time": {
+      "dataType": "Number"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "unit_price": {
+      "dataType": "Number"
+    },
+    "repurchase_price": {
+      "dataType": "Number"
+    },
+    "operation_record": {
+      "dataType": "Object",
+      "relationTable": "Batch_operation_record"
+    },
+    "isRebuild": {
+      "dataType": "Boolean"
+    },
+    "income_ratio": {
+      "dataType": "Number"
+    },
+    "repay_state": {
+      "dataType": "String"
+    },
+    "subtitle": {
+      "dataType": "String"
+    },
+    "main_title": {
+      "dataType": "String"
+    },
+    "limit": {
+      "dataType": "Object",
+      "relationTable": "Batch_limit"
+    },
+    "product_id": {
+      "dataType": "String"
+    },
+    "company_id": {
+      "dataType": "String"
+    },
+    "product_type": {
+      "dataType": "Number"
+    },
+    "product_period": {
+      "dataType": "Number"
+    },
+    "stage": {
+      "dataType": "Number"
+    },
+    "current_stage": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "shuHuiCode": {
+      "dataType": "String"
+    },
+    "goodsType_id": {
+      "dataType": "String"
+    },
+    "pay_state": {
+      "dataType": "String"
+    },
+    "new_repurchase_price": {
+      "dataType": "Number"
+    },
+    "insurance_template_id": {
+      "dataType": "String"
+    },
+    "send_meat_coupons_state": {
+      "dataType": "String"
+    },
+    "send_meat_coupons_time": {
+      "dataType": "Number"
+    },
+    "target_state": {
+      "dataType": "String"
+    },
+    "next_stage_batch_id": {
+      "dataType": "String"
+    },
+    "gestation_period": {
+      "dataType": "Number"
+    },
+    "lactation_period": {
+      "dataType": "Number"
+    },
+    "batch_type": {
+      "dataType": "Number"
+    },
+    "update_at": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "String"
+    },
+    "base_price": {
+      "dataType": "Number"
+    },
+    "expect_repurchase_price": {
+      "dataType": "Number"
+    },
+    "product_name": {
+      "dataType": "String"
+    },
+    "variety_id": {
+      "dataType": "String"
+    },
+    "variety_name": {
+      "dataType": "String"
+    },
+    "variety_type": {
+      "dataType": "String"
+    },
+    "expect_profit": {
+      "dataType": "Number"
+    }
+  },
+  "Batch_operation_counts": {
+    "1": {
+      "dataType": "Number"
+    },
+    "2": {
+      "dataType": "Number"
+    },
+    "3": {
+      "dataType": "Number"
+    },
+    "4": {
+      "dataType": "Number"
+    },
+    "5": {
+      "dataType": "Number"
+    },
+    "6": {
+      "dataType": "Number"
+    }
+  },
+  "Batch_operation_record": {
+    "huiKuanCode": {
+      "dataType": "String"
+    },
+    "shuHuiCode": {
+      "dataType": "String"
+    }
+  },
+  "Batch_limit": {
+    "batchNoPayOrderNum": {
+      "dataType": "String"
+    },
+    "orderSheepNum": {
+      "dataType": "String"
+    },
+    "batchSheepNum": {
+      "dataType": "String"
+    },
+    "orderTotalNum": {
+      "dataType": "String"
+    },
+    "limitBatchName": {
+      "dataType": "String"
+    },
+    "playCondition": {
+      "dataType": "String"
+    },
+    "description": {
+      "dataType": "String"
+    },
+    "batchSheepMax": {
+      "dataType": "String"
+    }
+  },
+  "Company": {
+    "digestType": {
+      "dataType": "String"
+    },
+    "is_activate": {
+      "dataType": "Boolean"
+    },
+    "is_set_pay_password": {
+      "dataType": "Boolean"
+    },
+    "is_smt_fund_agent_buy": {
+      "dataType": "Boolean"
+    },
+    "address": {
+      "dataType": "String"
+    },
+    "bank_account_no": {
+      "dataType": "String"
+    },
+    "bank_branch": {
+      "dataType": "String"
+    },
+    "bank_code": {
+      "dataType": "String"
+    },
+    "business_scope": {
+      "dataType": "String"
+    },
+    "card_attribute": {
+      "dataType": "String"
+    },
+    "card_type": {
+      "dataType": "String"
+    },
+    "cert_no": {
+      "dataType": "String"
+    },
+    "cert_type": {
+      "dataType": "String"
+    },
+    "city": {
+      "dataType": "String"
+    },
+    "code": {
+      "dataType": "String"
+    },
+    "company_name": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "Number"
+    },
+    "digest": {
+      "dataType": "String"
+    },
+    "email": {
+      "dataType": "String"
+    },
+    "fileName": {
+      "dataType": "String"
+    },
+    "last_audit_order_no": {
+      "dataType": "String"
+    },
+    "legal_person": {
+      "dataType": "String"
+    },
+    "legal_person_phone": {
+      "dataType": "String"
+    },
+    "license_address": {
+      "dataType": "String"
+    },
+    "license_expire_date": {
+      "dataType": "Number"
+    },
+    "license_no": {
+      "dataType": "String"
+    },
+    "organization_no": {
+      "dataType": "String"
+    },
+    "province": {
+      "dataType": "String"
+    },
+    "summary": {
+      "dataType": "String"
+    },
+    "telephone": {
+      "dataType": "String"
+    },
+    "website": {
+      "dataType": "String"
+    },
+    "audit_status": {
+      "dataType": "String"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "audit_message": {
+      "dataType": "String"
+    },
+    "inner_order_no": {
+      "dataType": "String"
+    },
+    "state": {
+      "dataType": "String"
+    },
+    "company_level": {
+      "dataType": "String"
+    },
+    "company_type": {
+      "dataType": "String"
+    },
+    "company_province": {
+      "dataType": "String"
+    }
+  },
+  "OrderExtract": {
+    "dispose_state": {
+      "dataType": "Number"
+    },
+    "conversion_price": {
+      "dataType": "Number"
+    },
+    "is_delete": {
+      "dataType": "Boolean"
+    },
+    "update_at": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "String"
+    },
+    "order_code": {
+      "dataType": "String"
+    },
+    "user_id": {
+      "dataType": "String"
+    },
+    "goods_type": {
+      "dataType": "Number"
+    },
+    "address_id": {
+      "dataType": "String"
+    },
+    "send_num": {
+      "dataType": "Number"
+    },
+    "seedling_id": {
+      "dataType": "String"
+    },
+    "batch_title": {
+      "dataType": "String"
+    },
+    "type": {
+      "dataType": "Number"
+    },
+    "order_state": {
+      "dataType": "Number"
+    },
+    "merchant_id": {
+      "dataType": "String"
+    },
+    "receive_name": {
+      "dataType": "String"
+    },
+    "receive_phone": {
+      "dataType": "String"
+    },
+    "receive_province_code": {
+      "dataType": "String"
+    },
+    "receive_city_code": {
+      "dataType": "String"
+    },
+    "receive_area_code": {
+      "dataType": "String"
+    },
+    "receive_area_info": {
+      "dataType": "String"
+    },
+    "receive_address": {
+      "dataType": "String"
+    },
+    "amount": {
+      "dataType": "Number"
+    },
+    "freight": {
+      "dataType": "Number"
+    },
+    "cancel_remark": {
+      "dataType": "String"
+    },
+    "cancel_time": {
+      "dataType": "Number"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "pay_time": {
+      "dataType": "Number"
+    },
+    "is_refund": {
+      "dataType": "Boolean"
+    },
+    "is_tip_send": {
+      "dataType": "Boolean"
+    },
+    "tip_send_time": {
+      "dataType": "Number"
+    },
+    "jifen": {
+      "dataType": "Number"
+    },
+    "user_storage_id": {
+      "dataType": "String"
+    },
+    "batch_id": {
+      "dataType": "String"
+    },
+    "company_id": {
+      "dataType": "String"
+    },
+    "product_id": {
+      "dataType": "String"
+    },
+    "product_name": {
+      "dataType": "String"
+    },
+    "variety_id": {
+      "dataType": "String"
+    }
+  },
+  "FeedingItem": {
+    "type": {
+      "dataType": "Number"
+    },
+    "operation_count": {
+      "dataType": "Number"
+    },
+    "isRebuild": {
+      "dataType": "Boolean"
+    },
+    "product_type": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "InsuranceTemplate": {
+    "name": {
+      "dataType": "String"
+    },
+    "template": {
+      "dataType": "String"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "update_time": {
+      "dataType": "Number"
+    }
+  },
+  "Insurance": {
+    "_id": {
+      "dataType": "String"
+    },
+    "batch_id": {
+      "dataType": "String"
+    },
+    "code": {
+      "dataType": "String"
+    },
+    "username": {
+      "dataType": "String"
+    },
+    "address": {
+      "dataType": "String"
+    },
+    "specific_address": {
+      "dataType": "String"
+    },
+    "term": {
+      "dataType": "String"
+    },
+    "matter": {
+      "dataType": "String"
+    },
+    "amount": {
+      "dataType": "String"
+    },
+    "basis": {
+      "dataType": "String"
+    },
+    "total_amount": {
+      "dataType": "String"
+    },
+    "instructions": {
+      "dataType": "String"
+    },
+    "insurance_costs": {
+      "dataType": "String"
+    },
+    "payment_date": {
+      "dataType": "String"
+    },
+    "__v": {
+      "dataType": "Number"
+    }
+  },
+  "Order": {
+    "receive_state": {
+      "dataType": "Boolean"
+    },
+    "is_hide": {
+      "dataType": "Boolean"
+    },
+    "_id": {
+      "dataType": "String"
+    },
+    "type": {
+      "dataType": "Number"
+    },
+    "sheep_num": {
+      "dataType": "Number"
+    },
+    "amount": {
+      "dataType": "Number"
+    },
+    "user_id": {
+      "dataType": "String"
+    },
+    "merchant_id": {
+      "dataType": "String"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "batch_id": {
+      "dataType": "String"
+    },
+    "update_time": {
+      "dataType": "Number"
+    },
+    "order_code": {
+      "dataType": "String"
+    },
+    "state": {
+      "dataType": "Number"
+    },
+    "repurchase_state": {
+      "dataType": "String"
+    },
+    "pay_time": {
+      "dataType": "Number"
+    },
+    "finish_time": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "isRebuild": {
+      "dataType": "Boolean"
+    },
+    "cancel_reason": {
+      "dataType": "String"
+    },
+    "other_info": {
+      "dataType": "Object",
+      "relationTable": "Order_other_info"
+    },
+    "paymendMethod": {
+      "dataType": "Object",
+      "relationTable": "Order_paymendMethod"
+    },
+    "send_meatloaf_time": {
+      "dataType": "Number"
+    },
+    "meatloaf_send_state": {
+      "dataType": "String"
+    },
+    "original_order": {
+      "dataType": "String"
+    },
+    "original_amount": {
+      "dataType": "Number"
+    },
+    "order_type": {
+      "dataType": "String"
+    },
+    "remark": {
+      "dataType": "String"
+    },
+    "greetings": {
+      "dataType": "String"
+    },
+    "receive_user_name": {
+      "dataType": "String"
+    },
+    "receive_user_mobile": {
+      "dataType": "String"
+    }
+  },
+  "Order_other_info": {
+    "greetings": {
+      "dataType": "String"
+    },
+    "receive_user_mobile": {
+      "dataType": "String"
+    },
+    "receive_user_name": {
+      "dataType": "String"
+    }
+  },
+  "Order_paymendMethod": {
+    "otherPayType": {
+      "dataType": "String"
+    },
+    "otherPay": {
+      "dataType": "Number"
+    },
+    "balance": {
+      "dataType": "Number"
+    },
+    "jifen": {
+      "dataType": "Number"
+    }
+  },
+  "UserStorage": {
+    "stock": {
+      "dataType": "Number"
+    },
+    "expect_stock": {
+      "dataType": "Number"
+    },
+    "extract_num": {
+      "dataType": "Number"
+    },
+    "in_storage_num": {
+      "dataType": "Number"
+    },
+    "repurchase_num": {
+      "dataType": "Number"
+    },
+    "repurchase_unit_price": {
+      "dataType": "Number"
+    },
+    "subscribe_num": {
+      "dataType": "Number"
+    },
+    "update_at": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "String"
+    },
+    "user_id": {
+      "dataType": "String"
+    },
+    "type": {
+      "dataType": "Number"
+    },
+    "batch_id": {
+      "dataType": "String"
+    },
+    "batch_title": {
+      "dataType": "String"
+    },
+    "variety_id": {
+      "dataType": "String"
+    },
+    "variety_name": {
+      "dataType": "String"
+    },
+    "product_id": {
+      "dataType": "String"
+    },
+    "product_name": {
+      "dataType": "String"
+    },
+    "company_id": {
+      "dataType": "String"
+    },
+    "company_name": {
+      "dataType": "String"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "user_name": {
+      "dataType": "String"
+    }
+  },
+  "JiFenBill": {
+    "from_id": {
+      "dataType": "String"
+    },
+    "to_id": {
+      "dataType": "String"
+    },
+    "uid": {
+      "dataType": "String"
+    },
+    "amount": {
+      "dataType": "Number"
+    },
+    "explain": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "Number"
+    },
+    "order_id": {
+      "dataType": "String"
+    },
+    "ser_num": {
+      "dataType": "String"
+    },
+    "state": {
+      "dataType": "String"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "update_at": {
+      "dataType": "Number"
+    },
+    "flag": {
+      "dataType": "String"
+    },
+    "from_ser_num": {
+      "dataType": "String"
+    },
+    "bill_type": {
+      "dataType": "String"
+    }
+  },
+  "BankCardInformation": {
+    "user_id": {
+      "dataType": "String"
+    },
+    "user_name": {
+      "dataType": "String"
+    },
+    "id_card": {
+      "dataType": "String"
+    },
+    "card_number": {
+      "dataType": "String"
+    },
+    "card_type": {
+      "dataType": "String"
+    },
+    "card_bank": {
+      "dataType": "String"
+    },
+    "last_draw_time": {
+      "dataType": "Number"
+    },
+    "add_card": {
+      "dataType": "String"
+    },
+    "card_status": {
+      "dataType": "Number"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "prov": {
+      "dataType": "String"
+    },
+    "city": {
+      "dataType": "String"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "username": {
+      "dataType": "String"
+    }
+  },
+  "RefundOrder": {
+    "jifen": {
+      "dataType": "Number"
+    },
+    "amount": {
+      "dataType": "Number"
+    },
+    "type": {
+      "dataType": "Number"
+    },
+    "update_at": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "String"
+    },
+    "refund_code": {
+      "dataType": "String"
+    },
+    "order_id": {
+      "dataType": "String"
+    },
+    "order_code": {
+      "dataType": "String"
+    },
+    "user_id": {
+      "dataType": "String"
+    },
+    "remark": {
+      "dataType": "String"
+    },
+    "status": {
+      "dataType": "Number"
+    },
+    "apply_time": {
+      "dataType": "Number"
+    },
+    "cancel_time": {
+      "dataType": "Number"
+    },
+    "cancel_remark": {
+      "dataType": "String"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "real_amount": {
+      "dataType": "Number"
+    },
+    "audit_time": {
+      "dataType": "Number"
+    },
+    "admin_remark": {
+      "dataType": "String"
+    }
+  },
+  "Activity": {
+    "is_enable": {
+      "dataType": "Boolean"
+    },
+    "is_hide": {
+      "dataType": "Boolean"
+    },
+    "name": {
+      "dataType": "String"
+    },
+    "sequence": {
+      "dataType": "Number"
+    },
+    "start_time": {
+      "dataType": "Number"
+    },
+    "end_time": {
+      "dataType": "Number"
+    },
+    "banner_url": {
+      "dataType": "String"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "link": {
+      "dataType": "String"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "content": {
+      "dataType": "String"
+    }
+  },
+  "Sheep": {
+    "is_presenting": {
+      "dataType": "Boolean"
+    },
+    "code": {
+      "dataType": "String"
+    },
+    "type": {
+      "dataType": "Number"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "age": {
+      "dataType": "Number"
+    },
+    "lairage_weight": {
+      "dataType": "Number"
+    },
+    "gender": {
+      "dataType": "Number"
+    },
+    "picture_id": {
+      "dataType": "String"
+    },
+    "lairage_time": {
+      "dataType": "Number"
+    },
+    "is_preg": {
+      "dataType": "Boolean"
+    },
+    "birthday_time": {
+      "dataType": "Number"
+    },
+    "sheep_status": {
+      "dataType": "Number"
+    },
+    "batch_id": {
+      "dataType": "String"
+    },
+    "order_id": {
+      "dataType": "String"
+    },
+    "user_id": {
+      "dataType": "String"
+    },
+    "house_id": {
+      "dataType": "String"
+    },
+    "isRebuild": {
+      "dataType": "Boolean"
+    },
+    "slaughter_weight": {
+      "dataType": "Number"
+    },
+    "column_weight": {
+      "dataType": "Number"
+    },
+    "butcher_code": {
+      "dataType": "String"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "source": {
+      "dataType": "String"
+    },
+    "destription": {
+      "dataType": "String"
+    },
+    "type_name": {
+      "dataType": "String"
+    }
+  },
+  "Announcement": {
+    "title": {
+      "dataType": "String"
+    },
+    "type": {
+      "dataType": "String"
+    },
+    "start_time": {
+      "dataType": "Number"
+    },
+    "end_time": {
+      "dataType": "Number"
+    },
+    "full_content": {
+      "dataType": "String"
+    },
+    "abstract": {
+      "dataType": "String"
+    },
+    "link_name": {
+      "dataType": "String"
+    },
+    "link_addr": {
+      "dataType": "String"
+    },
+    "link_is_show": {
+      "dataType": "Boolean"
+    },
+    "state": {
+      "dataType": "String"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "version": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "JiFenBalance": {
+    "account_id": {
+      "dataType": "String"
+    },
+    "amount": {
+      "dataType": "Number"
+    },
+    "ser_num": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "flag": {
+      "dataType": "String"
+    }
+  },
+  "UserExtend": {
+    "uid": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "String"
+    },
+    "grade_value": {
+      "dataType": "Number"
+    },
+    "experience_value": {
+      "dataType": "Number"
+    },
+    "sign_link_num": {
+      "dataType": "Number"
+    },
+    "order_sheep_num": {
+      "dataType": "Number"
+    },
+    "batch_sheep_num": {
+      "dataType": "Number"
+    },
+    "register_time": {
+      "dataType": "Number"
+    },
+    "update_at": {
+      "dataType": "String"
+    },
+    "invited_sum_num": {
+      "dataType": "Number"
+    },
+    "order_sum_num": {
+      "dataType": "Number"
+    },
+    "buy_sum_num": {
+      "dataType": "Number"
+    },
+    "invert_sum_amount": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "BankCardCodes": {
+    "fkhdm": {
+      "dataType": "Number"
+    },
+    "fkyh": {
+      "dataType": "String"
+    },
+    "kmc": {
+      "dataType": "String"
+    },
+    "kbin": {
+      "dataType": "Number"
+    },
+    "klx": {
+      "dataType": "String"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "FileInfo": {
+    "file_type": {
+      "dataType": "String"
+    },
+    "file_dir": {
+      "dataType": "String"
+    },
+    "platform_type": {
+      "dataType": "String"
+    },
+    "user_id": {
+      "dataType": "String"
+    },
+    "file_name": {
+      "dataType": "String"
+    },
+    "file_id": {
+      "dataType": "String"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "ProductGrowth": {
+    "update_at": {
+      "dataType": "String"
+    },
+    "create_time": {
+      "dataType": "String"
+    },
+    "product_id": {
+      "dataType": "String"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "RecommendRecord": {
+    "user_id": {
+      "dataType": "String"
+    },
+    "recommend_user_id": {
+      "dataType": "String"
+    },
+    "recommend_code": {
+      "dataType": "String"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "isRebuild": {
+      "dataType": "Boolean"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "telno": {
+      "dataType": "String"
+    }
+  },
+  "ProductStorage": {
+    "storage_num": {
+      "dataType": "Number"
+    },
+    "extract_num": {
+      "dataType": "Number"
+    },
+    "extract_ratio": {
+      "dataType": "Number"
+    },
+    "update_at": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "String"
+    },
+    "product_name": {
+      "dataType": "String"
+    },
+    "product_type": {
+      "dataType": "Number"
+    },
+    "variety_id": {
+      "dataType": "String"
+    },
+    "variety_name": {
+      "dataType": "String"
+    },
+    "variety_type": {
+      "dataType": "String"
+    },
+    "company_id": {
+      "dataType": "String"
+    },
+    "product_id": {
+      "dataType": "String"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "RansomApply": {
+    "state": {
+      "dataType": "Number"
+    },
+    "supplement_contract_state": {
+      "dataType": "Boolean"
+    },
+    "repurchase_state": {
+      "dataType": "Boolean"
+    },
+    "update_at": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "String"
+    },
+    "user_id": {
+      "dataType": "String"
+    },
+    "batch_id": {
+      "dataType": "String"
+    },
+    "batch_title": {
+      "dataType": "String"
+    },
+    "product_id": {
+      "dataType": "String"
+    },
+    "product_type": {
+      "dataType": "String"
+    },
+    "variety_id": {
+      "dataType": "String"
+    },
+    "variety_type": {
+      "dataType": "String"
+    },
+    "cycle": {
+      "dataType": "Number"
+    },
+    "yields": {
+      "dataType": "Number"
+    },
+    "num": {
+      "dataType": "Number"
+    },
+    "bearing_start_time": {
+      "dataType": "Number"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "limit": {
+      "dataType": "Object",
+      "relationTable": "RansomApply_limit"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "RansomApply_limit": {
+    "30": {
+      "dataType": "String"
+    }
+  },
+  "ProductStorageRecord": {
+    "update_at": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "String"
+    },
+    "order_code": {
+      "dataType": "String"
+    },
+    "batch_id": {
+      "dataType": "String"
+    },
+    "batch_title": {
+      "dataType": "String"
+    },
+    "variety_id": {
+      "dataType": "String"
+    },
+    "variety_name": {
+      "dataType": "String"
+    },
+    "product_id": {
+      "dataType": "String"
+    },
+    "product_name": {
+      "dataType": "String"
+    },
+    "company_id": {
+      "dataType": "String"
+    },
+    "operator_id": {
+      "dataType": "String"
+    },
+    "operator_name": {
+      "dataType": "String"
+    },
+    "operator_action": {
+      "dataType": "Number"
+    },
+    "before_storage_num": {
+      "dataType": "Number"
+    },
+    "operator_num": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "UserBatch": {
+    "expect_profit": {
+      "dataType": "Number"
+    },
+    "float_profit": {
+      "dataType": "Number"
+    },
+    "state": {
+      "dataType": "Number"
+    },
+    "update_at": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "String"
+    },
+    "user_id": {
+      "dataType": "String"
+    },
+    "batch_id": {
+      "dataType": "String"
+    },
+    "num": {
+      "dataType": "Number"
+    },
+    "batch_title": {
+      "dataType": "String"
+    },
+    "product_id": {
+      "dataType": "String"
+    },
+    "product_name": {
+      "dataType": "String"
+    },
+    "company_id": {
+      "dataType": "String"
+    },
+    "company_name": {
+      "dataType": "String"
+    },
+    "company_province": {
+      "dataType": "String"
+    },
+    "expect_repurchase_price": {
+      "dataType": "Number"
+    },
+    "variety_id": {
+      "dataType": "String"
+    },
+    "variety_name": {
+      "dataType": "String"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "variety_type": {
+      "dataType": "String"
+    }
+  },
+  "UserCoupon": {
+    "status": {
+      "dataType": "Number"
+    },
+    "coupon_type": {
+      "dataType": "String"
+    },
+    "uid": {
+      "dataType": "String"
+    },
+    "username": {
+      "dataType": "String"
+    },
+    "mobile": {
+      "dataType": "String"
+    },
+    "coupon_code": {
+      "dataType": "String"
+    },
+    "amount": {
+      "dataType": "Number"
+    },
+    "coupon_num": {
+      "dataType": "Number"
+    },
+    "remark": {
+      "dataType": "String"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "update_time": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "Msg": {
+    "type": {
+      "dataType": "Number"
+    },
+    "to_user": {
+      "dataType": "String"
+    },
+    "content": {
+      "dataType": "String"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "read": {
+      "dataType": "Boolean"
+    },
+    "isRebuild": {
+      "dataType": "Boolean"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "update_at": {
+      "dataType": "String"
+    }
+  },
+  "JiFen": {
+    "uid": {
+      "dataType": "String"
+    },
+    "balance": {
+      "dataType": "Number"
+    },
+    "isRebuild": {
+      "dataType": "Boolean"
+    },
+    "update_at": {
+      "dataType": "Number"
+    },
+    "create_at": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "last_update_bill": {
+      "dataType": "String"
+    }
+  },
+  "Balance": {
+    "account_id": {
+      "dataType": "String"
+    },
+    "amount": {
+      "dataType": "Number"
+    },
+    "ser_num": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "ExchangeMenu": {
+    "is_use": {
+      "dataType": "Boolean"
+    },
+    "variety_id": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "UserStorageRecord": {
+    "update_at": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "String"
+    },
+    "type": {
+      "dataType": "Number"
+    },
+    "operator_action": {
+      "dataType": "Number"
+    },
+    "order_code": {
+      "dataType": "String"
+    },
+    "user_id": {
+      "dataType": "String"
+    },
+    "user_name": {
+      "dataType": "String"
+    },
+    "user_mobile": {
+      "dataType": "String"
+    },
+    "user_grade": {
+      "dataType": "Number"
+    },
+    "batch_id": {
+      "dataType": "String"
+    },
+    "batch_title": {
+      "dataType": "String"
+    },
+    "product_id": {
+      "dataType": "String"
+    },
+    "product_name": {
+      "dataType": "String"
+    },
+    "variety_id": {
+      "dataType": "String"
+    },
+    "variety_name": {
+      "dataType": "String"
+    },
+    "company_id": {
+      "dataType": "String"
+    },
+    "company_name": {
+      "dataType": "String"
+    },
+    "operator_id": {
+      "dataType": "String"
+    },
+    "operator_name": {
+      "dataType": "String"
+    },
+    "operator_grade": {
+      "dataType": "Number"
+    },
+    "operator_num": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "product_storage_record_id": {
+      "dataType": "String"
+    },
+    "user_storage_id": {
+      "dataType": "String"
+    }
+  },
+  "Account": {
+    "uid": {
+      "dataType": "String"
+    },
+    "balance": {
+      "dataType": "Number"
+    },
+    "income": {
+      "dataType": "Number"
+    },
+    "isRebuild": {
+      "dataType": "Boolean"
+    },
+    "create_at": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "update_at": {
+      "dataType": "Number"
+    },
+    "last_update_bill": {
+      "dataType": "String"
+    },
+    "offline": {
+      "dataType": "Number"
+    },
+    "amount": {
+      "dataType": "Number"
+    },
+    "reason": {
+      "dataType": "String"
+    }
+  },
+  "JiFenRead": {
+    "read": {
+      "dataType": "String"
+    },
+    "uid": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "Number"
+    },
+    "update_at": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "SinaUserBill": {
+    "uid": {
+      "dataType": "String"
+    },
+    "direction": {
+      "dataType": "String"
+    },
+    "amount": {
+      "dataType": "Number"
+    },
+    "type": {
+      "dataType": "String"
+    },
+    "balance": {
+      "dataType": "Number"
+    },
+    "createTime": {
+      "dataType": "Number"
+    },
+    "dealTime": {
+      "dataType": "Number"
+    },
+    "uniqueInfo": {
+      "dataType": "String"
+    },
+    "remark": {
+      "dataType": "String"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "SeedlingUser": {
+    "is_receive": {
+      "dataType": "Boolean"
+    },
+    "is_expired": {
+      "dataType": "Boolean"
+    },
+    "is_extract": {
+      "dataType": "Boolean"
+    },
+    "user_id": {
+      "dataType": "String"
+    },
+    "seedling_id": {
+      "dataType": "String"
+    },
+    "mobile": {
+      "dataType": "String"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "update_time": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "RiskRatingSubject": {
+    "state": {
+      "dataType": "Boolean"
+    },
+    "risk_rating_id": {
+      "dataType": "String"
+    },
+    "content": {
+      "dataType": "String"
+    },
+    "score": {
+      "dataType": "Number"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "update_time": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "TransportV2": {
+    "update_at": {
+      "dataType": "String"
+    },
+    "create_time": {
+      "dataType": "String"
+    },
+    "name": {
+      "dataType": "String"
+    },
+    "min_weight": {
+      "dataType": "Number"
+    },
+    "max_weight": {
+      "dataType": "Number"
+    },
+    "variety_weight": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "Receiver": {
+    "receiver_name": {
+      "dataType": "String"
+    },
+    "receiver_mobile": {
+      "dataType": "String"
+    },
+    "receiver_address": {
+      "dataType": "String"
+    },
+    "username": {
+      "dataType": "String"
+    },
+    "nickname": {
+      "dataType": "String"
+    },
+    "mobile": {
+      "dataType": "String"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "activity_id": {
+      "dataType": "String"
+    },
+    "activity_name": {
+      "dataType": "String"
+    },
+    "count": {
+      "dataType": "Number"
+    },
+    "other_info": {
+      "dataType": "String"
+    }
+  },
+  "Product": {
+    "artificial_ground_price": {
+      "dataType": "Number"
+    },
+    "name": {
+      "dataType": "String"
+    },
+    "variety_id": {
+      "dataType": "String"
+    },
+    "company_id": {
+      "dataType": "String"
+    },
+    "price": {
+      "dataType": "Number"
+    },
+    "worm_price": {
+      "dataType": "Number"
+    },
+    "feed_price": {
+      "dataType": "Number"
+    },
+    "artificial_price": {
+      "dataType": "Number"
+    },
+    "butcher_price": {
+      "dataType": "Number"
+    },
+    "hydropower_price": {
+      "dataType": "Number"
+    },
+    "panic_buying_price": {
+      "dataType": "Number"
+    },
+    "repurchase_price": {
+      "dataType": "Number"
+    },
+    "yields": {
+      "dataType": "Number"
+    },
+    "subsidy_type": {
+      "dataType": "String"
+    },
+    "meat_coupons": {
+      "dataType": "Number"
+    },
+    "subsidy_yields": {
+      "dataType": "Number"
+    },
+    "cycle": {
+      "dataType": "Number"
+    },
+    "introduction": {
+      "dataType": "String"
+    },
+    "template": {
+      "dataType": "String"
+    },
+    "template_code": {
+      "dataType": "String"
+    },
+    "create_time": {
+      "dataType": "String"
+    },
+    "income_exchange_method": {
+      "dataType": "String"
+    },
+    "is_guarantee": {
+      "dataType": "Boolean"
+    },
+    "product_type": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "coupon_card_code": {
+      "dataType": "String"
+    },
+    "update_at": {
+      "dataType": "String"
+    },
+    "float_profit": {
+      "dataType": "Number"
+    },
+    "step": {
+      "dataType": "Number"
+    },
+    "unit_output": {
+      "dataType": "Number"
+    },
+    "transport_id": {
+      "dataType": "String"
+    },
+    "seed_price": {
+      "dataType": "Number"
+    },
+    "fertilizer_price": {
+      "dataType": "Number"
+    },
+    "labour_utilities": {
+      "dataType": "Number"
+    },
+    "pesticide_price": {
+      "dataType": "Number"
+    },
+    "stages_id": {
+      "dataType": "String"
+    },
+    "is_set_market_price": {
+      "dataType": "Boolean"
+    },
+    "template_supplement": {
+      "dataType": "String"
+    },
+    "other_yields": {
+      "dataType": "Object",
+      "relationTable": "Product_other_yields"
+    },
+    "repurchase_limit": {
+      "dataType": "Object",
+      "relationTable": "Product_repurchase_limit"
+    }
+  },
+  "Product_other_yields": {
+    "30": {
+      "dataType": "Number"
+    },
+    "60": {
+      "dataType": "Number"
+    },
+    "90": {
+      "dataType": "Number"
+    },
+    "120": {
+      "dataType": "Number"
+    },
+    "150": {
+      "dataType": "Number"
+    }
+  },
+  "Product_repurchase_limit": {
+    "30": {
+      "dataType": "Object",
+      "relationTable": "Product_repurchase_limit_30"
+    },
+    "60": {
+      "dataType": "Object",
+      "relationTable": "Product_repurchase_limit_60"
+    },
+    "90": {
+      "dataType": "Object",
+      "relationTable": "Product_repurchase_limit_90"
+    },
+    "120": {
+      "dataType": "Object",
+      "relationTable": "Product_repurchase_limit_120"
+    },
+    "150": {
+      "dataType": "Object",
+      "relationTable": "Product_repurchase_limit_150"
+    }
+  },
+  "Product_repurchase_limit_30": {
+    "ratio": {
+      "dataType": "Number"
+    },
+    "amountRatio": {
+      "dataType": "Number"
+    }
+  },
+  "Product_repurchase_limit_60": {
+    "amountRatio": {
+      "dataType": "Number"
+    },
+    "ratio": {
+      "dataType": "Number"
+    }
+  },
+  "Product_repurchase_limit_90": {
+    "amountRatio": {
+      "dataType": "Number"
+    },
+    "ratio": {
+      "dataType": "Number"
+    }
+  },
+  "Product_repurchase_limit_120": {
+    "amountRatio": {
+      "dataType": "Number"
+    },
+    "ratio": {
+      "dataType": "Number"
+    }
+  },
+  "Product_repurchase_limit_150": {
+    "amountRatio": {
+      "dataType": "Number"
+    },
+    "ratio": {
+      "dataType": "Number"
+    }
+  },
+  "User": {
+    "need_upgrade": {
+      "dataType": "Boolean"
+    },
+    "is_activate": {
+      "dataType": "Boolean"
+    },
+    "is_real_name": {
+      "dataType": "Boolean"
+    },
+    "is_binding_verify": {
+      "dataType": "Boolean"
+    },
+    "is_set_pay_password": {
+      "dataType": "Boolean"
+    },
+    "modify_mobile": {
+      "dataType": "Boolean"
+    },
+    "is_seedling_receive": {
+      "dataType": "Boolean"
+    },
+    "mobile": {
+      "dataType": "String"
+    },
+    "password": {
+      "dataType": "String"
+    },
+    "role_type": {
+      "dataType": "Number"
+    },
+    "isRebuild": {
+      "dataType": "Boolean"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "salt": {
+      "dataType": "String"
+    },
+    "username": {
+      "dataType": "String"
+    },
+    "idcard": {
+      "dataType": "String"
+    },
+    "nickname": {
+      "dataType": "String"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "wxopenid": {
+      "dataType": "String"
+    },
+    "portrait_id": {
+      "dataType": "String"
+    },
+    "gender": {
+      "dataType": "String"
+    },
+    "pay_pwd": {
+      "dataType": "String"
+    },
+    "is_bindwx": {
+      "dataType": "Boolean"
+    },
+    "announce_lversion": {
+      "dataType": "Number"
+    },
+    "unionid": {
+      "dataType": "String"
+    },
+    "wxnickname": {
+      "dataType": "String"
+    },
+    "platform_role": {
+      "dataType": "Object",
+      "relationTable": "User_platform_role"
+    },
+    "email": {
+      "dataType": "String"
+    },
+    "verify_time": {
+      "dataType": "Number"
+    },
+    "risk_level": {
+      "dataType": "String"
+    },
+    "risk_title": {
+      "dataType": "String"
+    },
+    "update_at": {
+      "dataType": "String"
+    },
+    "birthday": {
+      "dataType": "Number"
+    },
+    "unsubscribe": {
+      "dataType": "Boolean"
+    },
+    "recommend_user_id": {
+      "dataType": "String"
+    },
+    "remak": {
+      "dataType": "String"
+    },
+    "remark": {
+      "dataType": "Object",
+      "relationTable": "User_remark"
+    },
+    "is_read_name": {
+      "dataType": "Boolean"
+    },
+    "disabled": {
+      "dataType": "Boolean"
+    }
+  },
+  "User_platform_role": {},
+  "Variety": {
+    "extract_limit": {
+      "dataType": "Number"
+    },
+    "disable": {
+      "dataType": "Boolean"
+    },
+    "variety_name": {
+      "dataType": "String"
+    },
+    "variety_desc": {
+      "dataType": "String"
+    },
+    "pic_url": {
+      "dataType": "String"
+    },
+    "create_time": {
+      "dataType": "String"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "update_at": {
+      "dataType": "String"
+    },
+    "type": {
+      "dataType": "String"
+    }
+  },
+  "TransactionRecord": {
+    "direction": {
+      "dataType": "String"
+    },
+    "uid": {
+      "dataType": "String"
+    },
+    "out_trade_no": {
+      "dataType": "String"
+    },
+    "service": {
+      "dataType": "String"
+    },
+    "sub_service": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "Number"
+    },
+    "state": {
+      "dataType": "String"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "notify_id": {
+      "dataType": "String"
+    },
+    "notify_message": {
+      "dataType": "Object",
+      "relationTable": "TransactionRecord_notify_message"
+    },
+    "notify_at": {
+      "dataType": "Number"
+    }
+  },
+  "TransactionRecord_notify_message": {
+    "notify_id": {
+      "dataType": "String"
+    },
+    "inner_trade_no": {
+      "dataType": "String"
+    },
+    "trade_amount": {
+      "dataType": "String"
+    },
+    "outer_trade_no": {
+      "dataType": "String"
+    },
+    "_input_charset": {
+      "dataType": "String"
+    },
+    "gmt_create": {
+      "dataType": "String"
+    },
+    "sign": {
+      "dataType": "String"
+    },
+    "version": {
+      "dataType": "String"
+    },
+    "gmt_payment": {
+      "dataType": "String"
+    },
+    "trade_status": {
+      "dataType": "String"
+    },
+    "notify_type": {
+      "dataType": "String"
+    },
+    "sign_type": {
+      "dataType": "String"
+    },
+    "notify_time": {
+      "dataType": "String"
+    },
+    "pay_method": {
+      "dataType": "String"
+    },
+    "deposit_status": {
+      "dataType": "String"
+    },
+    "deposit_amount": {
+      "dataType": "String"
+    },
+    "error_message": {
+      "dataType": "String"
+    },
+    "error_code": {
+      "dataType": "String"
+    },
+    "card_id": {
+      "dataType": "String"
+    },
+    "withdraw_amount": {
+      "dataType": "String"
+    },
+    "withdraw_status": {
+      "dataType": "String"
+    },
+    "gmt_close": {
+      "dataType": "String"
+    },
+    "audit_status": {
+      "dataType": "String"
+    },
+    "audit_order_no": {
+      "dataType": "String"
+    },
+    "inner_order_no": {
+      "dataType": "String"
+    },
+    "audit_message": {
+      "dataType": "String"
+    }
+  },
+  "Bill": {
+    "withdraw_remark": {
+      "dataType": "String"
+    },
+    "withdraw_count": {
+      "dataType": "Number"
+    },
+    "account_id": {
+      "dataType": "String"
+    },
+    "amount": {
+      "dataType": "Number"
+    },
+    "bill_type": {
+      "dataType": "String"
+    },
+    "transaction_type": {
+      "dataType": "String"
+    },
+    "ser_num": {
+      "dataType": "String"
+    },
+    "state": {
+      "dataType": "String"
+    },
+    "username": {
+      "dataType": "String"
+    },
+    "bank": {
+      "dataType": "String"
+    },
+    "account_number": {
+      "dataType": "String"
+    },
+    "mobile": {
+      "dataType": "String"
+    },
+    "idcard": {
+      "dataType": "String"
+    },
+    "prov": {
+      "dataType": "String"
+    },
+    "city": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "Number"
+    },
+    "query_id": {
+      "dataType": "String"
+    },
+    "update_at": {
+      "dataType": "Number"
+    },
+    "withdraw_at": {
+      "dataType": "Number"
+    },
+    "withdraw_desc": {
+      "dataType": "String"
+    },
+    "withdraw_state": {
+      "dataType": "String"
+    },
+    "id": {
+      "dataType": "String"
+    },
+    "recharge_type": {
+      "dataType": "String"
+    },
+    "side_account_id": {
+      "dataType": "String"
+    },
+    "isRebuild": {
+      "dataType": "Boolean"
+    },
+    "order_id": {
+      "dataType": "String"
+    },
+    "opening_bank": {
+      "dataType": "String"
+    },
+    "mark": {
+      "dataType": "String"
+    },
+    "merSeqId": {
+      "dataType": "String"
+    }
+  },
+  "WeiXinUserInfo": {
+    "_id": {
+      "dataType": "String"
+    },
+    "openid": {
+      "dataType": "String"
+    },
+    "nickname": {
+      "dataType": "String"
+    },
+    "sex": {
+      "dataType": "String"
+    },
+    "language": {
+      "dataType": "String"
+    },
+    "city": {
+      "dataType": "String"
+    },
+    "province": {
+      "dataType": "String"
+    },
+    "country": {
+      "dataType": "String"
+    },
+    "headimgurl": {
+      "dataType": "String"
+    },
+    "oauth": {
+      "dataType": "Boolean"
+    },
+    "__v": {
+      "dataType": "Number"
+    },
+    "isRebuild": {
+      "dataType": "Boolean"
+    }
+  },
+  "Seedling": {
+    "grow_cycle": {
+      "dataType": "Number"
+    },
+    "square_meters": {
+      "dataType": "Number"
+    },
+    "yields": {
+      "dataType": "Number"
+    },
+    "receive_cycle": {
+      "dataType": "Number"
+    },
+    "state": {
+      "dataType": "Boolean"
+    },
+    "name": {
+      "dataType": "String"
+    },
+    "image_id": {
+      "dataType": "String"
+    },
+    "transport_id": {
+      "dataType": "String"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "update_time": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "RiskRating": {
+    "is_multi": {
+      "dataType": "Boolean"
+    },
+    "state": {
+      "dataType": "Boolean"
+    },
+    "serial_no": {
+      "dataType": "Number"
+    },
+    "title": {
+      "dataType": "String"
+    },
+    "order_by": {
+      "dataType": "Number"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "update_time": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "RiskRatingLevel": {
+    "level": {
+      "dataType": "String"
+    },
+    "title": {
+      "dataType": "String"
+    },
+    "score_begin": {
+      "dataType": "Number"
+    },
+    "score_end": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "DutyRoster": {
+    "task_type": {
+      "dataType": "Number"
+    },
+    "state": {
+      "dataType": "Boolean"
+    },
+    "week_id": {
+      "dataType": "String"
+    },
+    "week_name": {
+      "dataType": "String"
+    },
+    "username": {
+      "dataType": "String"
+    },
+    "user_mobile": {
+      "dataType": "String"
+    },
+    "user_email": {
+      "dataType": "String"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "update_time": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "MarketPrice": {
+    "update_at": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "String"
+    },
+    "product_id": {
+      "dataType": "String"
+    },
+    "product_name": {
+      "dataType": "String"
+    },
+    "date": {
+      "dataType": "Number"
+    },
+    "price": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "GrowthStage": {
+    "seedling_id": {
+      "dataType": "String"
+    },
+    "image_id": {
+      "dataType": "String"
+    },
+    "stage_no": {
+      "dataType": "Number"
+    },
+    "stage_name": {
+      "dataType": "String"
+    },
+    "begin_day": {
+      "dataType": "Number"
+    },
+    "end_day": {
+      "dataType": "Number"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "RiskRatingUser": {
+    "level": {
+      "dataType": "String"
+    },
+    "level_title": {
+      "dataType": "String"
+    },
+    "score": {
+      "dataType": "Number"
+    },
+    "user_id": {
+      "dataType": "String"
+    },
+    "content": {
+      "dataType": "String"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "Weeks": {
+    "day": {
+      "dataType": "Number"
+    },
+    "name": {
+      "dataType": "String"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "update_time": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "User_remark": {
+    "username": {
+      "dataType": "String"
+    },
+    "idcard": {
+      "dataType": "String"
+    }
+  },
+  "NewContract": {
+    "user": {
+      "dataType": "Object",
+      "relationTable": "NewContract_user"
+    },
+    "batch": {
+      "dataType": "Object",
+      "relationTable": "NewContract_batch"
+    },
+    "product": {
+      "dataType": "Object",
+      "relationTable": "NewContract_product"
+    },
+    "company": {
+      "dataType": "Object",
+      "relationTable": "NewContract_company"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "id": {
+      "dataType": "String"
+    }
+  },
+  "NewContract_user": {
+    "_id": {
+      "dataType": "String"
+    },
+    "mobile": {
+      "dataType": "String"
+    },
+    "role_type": {
+      "dataType": "Number"
+    },
+    "__v": {
+      "dataType": "Number"
+    },
+    "wxopenid": {
+      "dataType": "String"
+    },
+    "is_bindwx": {
+      "dataType": "Boolean"
+    },
+    "nickname": {
+      "dataType": "String"
+    },
+    "username": {
+      "dataType": "String"
+    },
+    "gender": {
+      "dataType": "String"
+    },
+    "idcard": {
+      "dataType": "String"
+    },
+    "announce_lversion": {
+      "dataType": "Number"
+    },
+    "pay_pwd": {
+      "dataType": "String"
+    },
+    "password": {
+      "dataType": "String"
+    },
+    "salt": {
+      "dataType": "String"
+    },
+    "portrait_id": {
+      "dataType": "String"
+    },
+    "modify_mobile": {
+      "dataType": "Boolean"
+    },
+    "is_set_pay_password": {
+      "dataType": "Boolean"
+    },
+    "is_binding_verify": {
+      "dataType": "Boolean"
+    },
+    "is_real_name": {
+      "dataType": "Boolean"
+    },
+    "is_activate": {
+      "dataType": "Boolean"
+    },
+    "need_upgrade": {
+      "dataType": "Boolean"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "isRebuild": {
+      "dataType": "Boolean"
+    },
+    "unionid": {
+      "dataType": "String"
+    },
+    "wxnickname": {
+      "dataType": "String"
+    },
+    "email": {
+      "dataType": "String"
+    },
+    "birthday": {
+      "dataType": "Number"
+    }
+  },
+  "NewContract_batch": {
+    "sell_num": {
+      "dataType": "Number"
+    },
+    "repurchase_state": {
+      "dataType": "Boolean"
+    },
+    "enter_time": {
+      "dataType": "Number"
+    },
+    "bearing_start_time": {
+      "dataType": "Number"
+    },
+    "bearing_end_time": {
+      "dataType": "Number"
+    },
+    "__v": {
+      "dataType": "Number"
+    },
+    "company_id": {
+      "dataType": "String"
+    },
+    "product_period": {
+      "dataType": "Number"
+    },
+    "period": {
+      "dataType": "Number"
+    },
+    "insurance_template_id": {
+      "dataType": "String"
+    },
+    "lactation_period": {
+      "dataType": "Number"
+    },
+    "gestation_period": {
+      "dataType": "Number"
+    },
+    "product_type": {
+      "dataType": "Number"
+    },
+    "product_id": {
+      "dataType": "String"
+    },
+    "current_stage": {
+      "dataType": "Number"
+    },
+    "stage": {
+      "dataType": "Number"
+    },
+    "target_state": {
+      "dataType": "String"
+    },
+    "limit": {
+      "dataType": "Object",
+      "relationTable": "NewContract_batch_limit"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "total_num": {
+      "dataType": "Number"
+    },
+    "end_time": {
+      "dataType": "Number"
+    },
+    "start_time": {
+      "dataType": "Number"
+    },
+    "batch_code": {
+      "dataType": "String"
+    },
+    "subtitle": {
+      "dataType": "String"
+    },
+    "main_title": {
+      "dataType": "String"
+    },
+    "_id": {
+      "dataType": "String"
+    },
+    "yield": {
+      "dataType": "Number"
+    },
+    "unit_price": {
+      "dataType": "Number"
+    },
+    "repurchase_price": {
+      "dataType": "Number"
+    },
+    "operation_counts": {
+      "dataType": "Object",
+      "relationTable": "NewContract_batch_operation_counts"
+    },
+    "operation_record": {
+      "dataType": "Object",
+      "relationTable": "NewContract_batch_operation_record"
+    },
+    "isRebuild": {
+      "dataType": "Boolean"
+    },
+    "income_ratio": {
+      "dataType": "Number"
+    },
+    "repay_state": {
+      "dataType": "String"
+    },
+    "shuHuiCode": {
+      "dataType": "String"
+    },
+    "goodsType_id": {
+      "dataType": "String"
+    },
+    "pay_state": {
+      "dataType": "String"
+    }
+  },
+  "NewContract_batch_limit": {
+    "batchNoPayOrderNum": {
+      "dataType": "Number"
+    },
+    "batchSheepNum": {
+      "dataType": "String"
+    },
+    "orderSheepNum": {
+      "dataType": "String"
+    }
+  },
+  "NewContract_product": {
+    "artificial_ground_price": {
+      "dataType": "Number"
+    },
+    "__v": {
+      "dataType": "Number"
+    },
+    "product_type": {
+      "dataType": "Number"
+    },
+    "is_guarantee": {
+      "dataType": "Boolean"
+    },
+    "income_exchange_method": {
+      "dataType": "String"
+    },
+    "create_time": {
+      "dataType": "Number"
+    },
+    "template_code": {
+      "dataType": "String"
+    },
+    "cycle": {
+      "dataType": "Number"
+    },
+    "subsidy_yields": {
+      "dataType": "Number"
+    },
+    "meat_coupons": {
+      "dataType": "Number"
+    },
+    "subsidy_type": {
+      "dataType": "String"
+    },
+    "yields": {
+      "dataType": "Number"
+    },
+    "repurchase_price": {
+      "dataType": "Number"
+    },
+    "panic_buying_price": {
+      "dataType": "Number"
+    },
+    "hydropower_price": {
+      "dataType": "Number"
+    },
+    "butcher_price": {
+      "dataType": "Number"
+    },
+    "artificial_price": {
+      "dataType": "Number"
+    },
+    "feed_price": {
+      "dataType": "Number"
+    },
+    "worm_price": {
+      "dataType": "Number"
+    },
+    "price": {
+      "dataType": "Number"
+    },
+    "company_id": {
+      "dataType": "String"
+    },
+    "variety_id": {
+      "dataType": "String"
+    },
+    "name": {
+      "dataType": "String"
+    },
+    "_id": {
+      "dataType": "String"
+    },
+    "introduction": {
+      "dataType": "String"
+    },
+    "template": {
+      "dataType": "String"
+    }
+  },
+  "NewContract_company": {
+    "id": {
+      "dataType": "String"
+    },
+    "create_at": {
+      "dataType": "Number"
+    },
+    "is_activate": {
+      "dataType": "Boolean"
+    },
+    "is_set_pay_password": {
+      "dataType": "Boolean"
+    },
+    "is_smt_fund_agent_buy": {
+      "dataType": "Boolean"
+    },
+    "inner_order_no": {
+      "dataType": "String"
+    },
+    "last_audit_order_no": {
+      "dataType": "String"
+    },
+    "audit_status": {
+      "dataType": "String"
+    },
+    "digest": {
+      "dataType": "String"
+    },
+    "fileName": {
+      "dataType": "String"
+    },
+    "bank_branch": {
+      "dataType": "String"
+    },
+    "city": {
+      "dataType": "String"
+    },
+    "province": {
+      "dataType": "String"
+    },
+    "card_attribute": {
+      "dataType": "String"
+    },
+    "card_type": {
+      "dataType": "String"
+    },
+    "bank_account_no": {
+      "dataType": "String"
+    },
+    "bank_code": {
+      "dataType": "String"
+    },
+    "legal_person_phone": {
+      "dataType": "String"
+    },
+    "cert_type": {
+      "dataType": "String"
+    },
+    "cert_no": {
+      "dataType": "String"
+    },
+    "legal_person": {
+      "dataType": "String"
+    },
+    "organization_no": {
+      "dataType": "String"
+    },
+    "email": {
+      "dataType": "String"
+    },
+    "telephone": {
+      "dataType": "String"
+    },
+    "license_expire_date": {
+      "dataType": "Number"
+    },
+    "license_address": {
+      "dataType": "String"
+    },
+    "license_no": {
+      "dataType": "String"
+    },
+    "address": {
+      "dataType": "String"
+    },
+    "company_name": {
+      "dataType": "String"
+    },
+    "code": {
+      "dataType": "String"
+    },
+    "_id": {
+      "dataType": "String"
+    },
+    "business_scope": {
+      "dataType": "String"
+    },
+    "summary": {
+      "dataType": "String"
+    },
+    "__v": {
+      "dataType": "Number"
+    },
+    "digestType": {
+      "dataType": "String"
+    },
+    "website": {
+      "dataType": "String"
+    }
+  },
+  "NewContract_batch_operation_counts": {
+    "1": {
+      "dataType": "Number"
+    },
+    "2": {
+      "dataType": "Number"
+    },
+    "3": {
+      "dataType": "Number"
+    },
+    "4": {
+      "dataType": "Number"
+    },
+    "5": {
+      "dataType": "Number"
+    },
+    "6": {
+      "dataType": "Number"
+    }
+  },
+  "NewContract_batch_operation_record": {
+    "shuHuiCode": {
+      "dataType": "String"
+    },
+    "huiKuanCode": {
+      "dataType": "String"
+    }
+  }
+}

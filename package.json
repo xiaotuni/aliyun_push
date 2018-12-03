@@ -1,0 +1,57 @@
+{
+  "name": "xiaotuni-aliyun-push",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author":"xiaotuni@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "dev": "better-npm-run start-dev",
+    "product": "better-npm-run start-product"
+  },
+  "betterScripts": {
+    "start-dev": {
+      "command": "nodemon index.js",
+      "env": {
+        "PORT": 4100,
+        "NODE_ENV": "development"
+      }
+    },
+    "start-product": {
+      "command": "nodemon index.js",
+      "env": {
+        "PORT": 4100,
+        "NODE_ENV": "production"
+      }
+    }
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "better-npm-run": "^0.1.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-babel": "^5.2.1",
+    "import-dir": "^0.0.1",
+    "koa": "^2.6.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compose": "^4.1.0",
+    "koa-convert": "^1.2.0",
+    "koa-cors": "0.0.16",
+    "koa-generic-session": "^2.0.1",
+    "koa-helmet": "^4.0.0",
+    "koa-redis": "^3.1.3",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.3.10",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.6",
+    "querystring": "^0.2.0",
+    "randomstring": "^1.1.5",
+    "sequelize": "^4.41.1"
+  },
+  "devDependencies": {
+    "crypto": "^1.0.1",
+    "node-fetch": "^2.3.0",
+    "request": "^2.88.0"
+  }
+}
