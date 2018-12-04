@@ -6,6 +6,25 @@
 * MySQL用来存储发送推送记录的数据
 * MongoDB主要是用来存放阿里云那边的数据的，阿里云里面的一些数据保留的时候还是有限制。
 
+# 下载项目
+```
+ git clone https://github.com/xiaotuni/aliyun_push.git
+```
+* 到项目目录
+```
+cd aliyun_push
+```
+* 安装依赖
+```
+npm install
+或
+yarn
+```
+* 运行项目
+```
+npm run dev
+```
+
 ## 配置文本
 ```
   ./server/config/ 目录下。
