@@ -2,7 +2,7 @@
   "name": "xiaotuni-aliyun-push",
   "version": "1.0.0",
   "main": "index.js",
-  "author":"xiaotuni@gmail.com",
+  "author": "xiaotuni@gmail.com",
   "license": "MIT",
   "scripts": {
     "dev": "better-npm-run start-dev",
