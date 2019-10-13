@@ -55,6 +55,6 @@ export default function middleware() {
     })),
     convert(bodyParser()),
     AccessToken({ name: 'token', secret: sessionSecret }),
-    convert(session({ prefix: 'sid:', store: redisStore({ client: RedisClientService }) })),
+    // convert(session({ prefix: 'sid:', store: redisStore({ client: RedisClientService }) })),
   ]);
 }
