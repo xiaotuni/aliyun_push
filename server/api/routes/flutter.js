@@ -114,21 +114,5 @@ export default router => {
       } catch (ex) {
         Utility.clientErrorInfo(ctx, ex);
       }
-    })
-    .get(`${__PRE__}/listPushRecords`, async ctx => {
-      try {
-        const params = {};
-        params.Action = "ListPushRecords";
-        params.AppKey = "AppKey";
-
-        const current = new Date();
-        current.setMonth(current.getMonth() - 1);
-        params.StartTime = current;
-        params.EndTime = new Date();
-
-        ctx.body = await AliYunService.SendPush(params);
-      } catch (ex) {
-        Utility.clientErrorInfo(ctx, ex);
-      }
     });
 };
