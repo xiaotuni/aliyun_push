@@ -1,5 +1,5 @@
 import Utility from "../../common/Utility";
-import { AliYunService } from "../../service";
+import { AliYunService, FlutterService } from "../../service";
 
 const __PRE__ = "/flutter";
 export default router => {
@@ -111,6 +111,21 @@ export default router => {
         params.AppKey = "AppKey";
         params.DeviceId = "5d42c0fcad9f496b9a2760c211f0a7e4"; // 'c016a905030144cbb84e1083f0f15139','da92566ae4d7480183c258386969e681','5d42c0fcad9f496b9a2760c211f0a7e4'
         ctx.body = await AliYunService.SendPush(params);
+      } catch (ex) {
+        Utility.clientErrorInfo(ctx, ex);
+      }
+    })
+    .post(`${__PRE__}/home`, async ctx => {
+      try {
+        const data = {
+          slides: await FlutterService.slides(),
+          categoryItems: await FlutterService.categoryItems(),
+          shopInfo: await FlutterService.shopInfo(),
+          recommendList: await FlutterService.recommendList(),
+          banner: await FlutterService.banner()
+        };
+
+        ctx.body = data;
       } catch (ex) {
         Utility.clientErrorInfo(ctx, ex);
       }
