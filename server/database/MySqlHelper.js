@@ -16,7 +16,7 @@ const OperatorType = {
 export default class MySqlHelper {
 
   constructor(dbConfig) {
-    this.initPool(dbConfig);
+    // this.initPool(dbConfig);
   }
 
   async initPool(dbConfig) {
