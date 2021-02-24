@@ -5,7 +5,7 @@
   "author": "xiaotuni@gmail.com",
   "license": "MIT",
   "scripts": {
-    "dev": "better-npm-run start-dev",
+    "start": "better-npm-run start-dev",
     "product": "better-npm-run start-product"
   },
   "betterScripts": {
