@@ -9,7 +9,7 @@ import middleware from './middleware';
 const initStart = async () => {
   try {
 
-    const port = process.env.PORT || 10000;
+    const port = process.env.PORT || 8080;
     const app = new Koa()
     app.keys = ['secret'];
     app.use(middleware());
