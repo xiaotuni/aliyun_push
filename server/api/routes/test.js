@@ -1,17 +1,25 @@
-import Utility from "../../common/Utility";
+import Utility from '../../common/Utility';
 import { AliYunService } from '../../service';
 
-const __PRE__ = '/test'
+const __PRE__ = '/test';
 export default (router) => {
   router
-    .get(`${__PRE__}/demo`, async ctx => {
+    .get(`${__PRE__}/`, async (ctx) => {
+      try {
+        const { method, params, query } = ctx.request;
+        ctx.body = { method, params, query, msg: 'hello world' };
+      } catch (ex) {
+        Utility.clientErrorInfo(ctx, ex);
+      }
+    })
+    .get(`${__PRE__}/demo`, async (ctx) => {
       try {
         ctx.body = { msg: 'hello world' };
       } catch (ex) {
         Utility.clientErrorInfo(ctx, ex);
       }
     })
-    .get(`${__PRE__}/pushNoticeToiOS`, async ctx => {
+    .get(`${__PRE__}/pushNoticeToiOS`, async (ctx) => {
       try {
         // ctx.body = await AliYunService.PushNoticeToiOS();
         const params = {};
@@ -27,7 +35,7 @@ export default (router) => {
         Utility.clientErrorInfo(ctx, ex);
       }
     })
-    .get(`${__PRE__}/pushMessageToiOS`, async ctx => {
+    .get(`${__PRE__}/pushMessageToiOS`, async (ctx) => {
       try {
         // ctx.body = await AliYunService.PushMessageToiOS();
         const prams = {};
@@ -42,14 +50,14 @@ export default (router) => {
         Utility.clientErrorInfo(ctx, ex);
       }
     })
-    .get(`${__PRE__}/pushAdvanced`, async ctx => {
+    .get(`${__PRE__}/pushAdvanced`, async (ctx) => {
       try {
         ctx.body = await AliYunService.PushAdvanced({ TargetValue: '580867d0d966328e6f922d96,575e53a31e591e0e3c6b4335' });
       } catch (ex) {
         Utility.clientErrorInfo(ctx, ex);
       }
     })
-    .get(`${__PRE__}/sendPush`, async ctx => {
+    .get(`${__PRE__}/sendPush`, async (ctx) => {
       try {
         const params = {};
         params.Action = 'Push';
@@ -64,7 +72,7 @@ export default (router) => {
         Utility.clientErrorInfo(ctx, ex);
       }
     })
-    .get(`${__PRE__}/queryUniqueDeviceStat`, async ctx => {
+    .get(`${__PRE__}/queryUniqueDeviceStat`, async (ctx) => {
       try {
         const params = {};
         params.Action = 'QueryUniqueDeviceStat';
@@ -74,34 +82,34 @@ export default (router) => {
         current.setMonth(current.getMonth() - 1);
         params.StartTime = current;
         params.EndTime = new Date();
-        ctx.body = await AliYunService.SendPush(params);;
+        ctx.body = await AliYunService.SendPush(params);
       } catch (ex) {
         Utility.clientErrorInfo(ctx, ex);
       }
     })
-    .get(`${__PRE__}/queryDevicesByAccount`, async ctx => {
+    .get(`${__PRE__}/queryDevicesByAccount`, async (ctx) => {
       try {
         const params = {};
         params.Action = 'QueryDevicesByAccount';
         params.AppKey = 'AppKey';
         params.Account = '575e53a31e591e0e3c6b4335';
-        ctx.body = await AliYunService.SendPush(params);;
+        ctx.body = await AliYunService.SendPush(params);
       } catch (ex) {
         Utility.clientErrorInfo(ctx, ex);
       }
     })
-    .get(`${__PRE__}/queryDeviceInfo`, async ctx => {
+    .get(`${__PRE__}/queryDeviceInfo`, async (ctx) => {
       try {
         const params = {};
         params.Action = 'QueryDeviceInfo';
         params.AppKey = 'AppKey';
-        params.DeviceId = '5d42c0fcad9f496b9a2760c211f0a7e4';// 'c016a905030144cbb84e1083f0f15139','da92566ae4d7480183c258386969e681','5d42c0fcad9f496b9a2760c211f0a7e4'
-        ctx.body = await AliYunService.SendPush(params);;
+        params.DeviceId = '5d42c0fcad9f496b9a2760c211f0a7e4'; // 'c016a905030144cbb84e1083f0f15139','da92566ae4d7480183c258386969e681','5d42c0fcad9f496b9a2760c211f0a7e4'
+        ctx.body = await AliYunService.SendPush(params);
       } catch (ex) {
         Utility.clientErrorInfo(ctx, ex);
       }
     })
-    .get(`${__PRE__}/listPushRecords`, async ctx => {
+    .get(`${__PRE__}/listPushRecords`, async (ctx) => {
       try {
         const params = {};
         params.Action = 'ListPushRecords';
@@ -112,10 +120,9 @@ export default (router) => {
         params.StartTime = current;
         params.EndTime = new Date();
 
-        ctx.body = await AliYunService.SendPush(params);;
+        ctx.body = await AliYunService.SendPush(params);
       } catch (ex) {
         Utility.clientErrorInfo(ctx, ex);
       }
-    })
-
-}
+    });
+};
