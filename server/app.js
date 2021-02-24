@@ -3,12 +3,15 @@ import Koa from 'koa';
 import api from './api/index.api';
 import Utility from './common/Utility';
 import middleware from './middleware';
+import koaStatic from 'koa-static';
+import path from 'path';
 
 const initStart = async () => {
   try {
     const port = process.env.PORT || 8080;
     Utility.printLog('init start port:', port);
     const app = new Koa();
+    app.use(koaStatic(path.resolve(__dirname, '../public')));
     app.keys = ['secret'];
     app.use(middleware());
     app.use(api());
